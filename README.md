@@ -1,10 +1,13 @@
-# DocSaver
+# document saver
 DocSaver - это плагин, который позволяет пользователям получать доступ к файловой системе устройства и сохранять файлы.
 
 ## Установка
 Добавьте в ваш pubspec.yaml плагин:
 ```yaml
-doc_saver:
+ doc_saver: 
+    git:
+      url: https://github.com/YuryMorozov2001/doc-saver-plugin.git
+
 ```
 ## Использование
 ### Получение пути к папке Download
